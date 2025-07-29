@@ -36,7 +36,8 @@ class EmailController {
       // Configuração do e-mail
       const mailOptions = {
         from: "contato@melotechconsulting.com", // Remetente
-        to: 'contato@arctronic.com.br', // Destinatário (mesmo e-mail para contato)
+        // to: 'contato@arctronic.com.br', // Destinatário (mesmo e-mail para contato)
+        to: `eduardo017melo@gmail.com`,
         subject: `Nova Mensagem de Contato: ${subject}`, // Assunto do e-mail
         html: `
           <h2>Nova Mensagem de ${name}</h2>
